@@ -168,7 +168,7 @@ ul li {
 /* slide */
 #slideshow {
     overflow: hidden;
-    height: 1000px;
+    height: 920px;
     width: 100%;
     margin: 0 auto;
 }
@@ -180,7 +180,7 @@ ul li {
 
 .slide {
     float: left;
-    height: 920;
+    height: 920px;
     width: 25%;
     position: relative;
 }
@@ -245,6 +245,30 @@ ul li {
     background-color: #65c178;
 }
 
+/* price-home */
+.container-price {
+    padding: 60px 0px;
+}
+.container-price p {
+    text-align: center;
+}
+.header-table-orange {
+    background-color: #ed6436;
+}
+.header-table-green {
+    background-color: #65c178;
+}
+table {
+    border: 1px solid rgb(202, 202, 202);
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+th {
+    color: white;
+}
+td {
+    text-align: center;
+}
 
 @-webkit-keyframes slide {
     20% {
@@ -298,7 +322,7 @@ ul li {
 .text-header-service-2 {
     font-size: 40px;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 3.5px;
 
 }
 
@@ -552,6 +576,48 @@ ul li {
     box-shadow: 2px 2px #ed6436;
 }
 
+
+
+/* footer */
+.backgroud-footer {
+    background-color: #000;
+    padding: 80px 20px;
+    
+}
+footer {
+    color: white;
+}
+.footer-container {
+    display: flex;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.footer-container > div {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+.box-footer .text-large {
+    font-size: 20px;
+}
+.box-footer:hover p {
+    color: #ed6436;
+}
+.logo-footer {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
 @media (max-width: 991px) {
     .container {
         padding: 0;
@@ -718,5 +784,14 @@ ul li {
 
     .flex-column span {
         text-align: center;
+    }
+
+    /* footer */
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .logo-footer {
+        border: none;
     }
 }
