@@ -117,7 +117,7 @@ ul li {
 .header .nav ul li a:hover,
 .header .nav ul li a.active {
     color: #000;
-    background-color: #ed6436;
+    background-color: #5cdb95;
 }
 
 .header #nav-check {
@@ -218,7 +218,7 @@ ul li {
 }
 
 .button-orange {
-    background-color: #ed6436;
+    background-color: #5cdb95;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -228,11 +228,11 @@ ul li {
 }
 
 .button-orange:hover {
-    background-color: #ec5422;
+    background-color: rgb(59, 201, 106);
 }
 
 .button-green {
-    background-color: #65c178;
+    background-color: #41b3a3;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -242,7 +242,7 @@ ul li {
 }
 
 .button-green:hover {
-    background-color: #65c178;
+    background-color: #41b3a3;
 }
 
 /* price-home */
@@ -255,11 +255,11 @@ ul li {
 }
 
 .header-table-orange {
-    background-color: #ed6436;
+    background-color: #41b3a3;
 }
 
 .header-table-green {
-    background-color: #65c178;
+    background-color: #c38d9e;
 }
 
 table {
@@ -320,7 +320,7 @@ td {
 
 .text-header-service {
     font-size: 26px;
-    color: #65c178;
+    color: #41b3a3;
     font-weight: bold;
     letter-spacing: 4px;
 }
@@ -333,7 +333,7 @@ td {
 }
 
 .text-header-service-2 span {
-    color: #ed6436;
+    color: #5cdb95;
 }
 
 .box-container-service {
@@ -371,11 +371,11 @@ td {
 }
 
 .color-orange {
-    color: #ed6436;
+    color: #5cdb95;
 }
 
 .color-green {
-    color: #65c178;
+    color: #41b3a3;
 }
 
 .container-aboutus {
@@ -587,7 +587,7 @@ td {
 .social-link {
     width: 40px;
     height: 40px;
-    border: 1px #ed6436 solid;
+    border: 1px #5cdb95 solid;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -635,13 +635,13 @@ td {
 }
 
 .form-contact input:focus {
-    border: 1px solid #ed6436;
-    box-shadow: 2px 2px #ed6436;
+    border: 1px solid #5cdb95;
+    box-shadow: 2px 2px #5cdb95;
 }
 
 .form-contact textarea:focus {
-    border: 1px solid #ed6436;
-    box-shadow: 2px 2px #ed6436;
+    border: 1px solid #5cdb95;
+    box-shadow: 2px 2px #5cdb95;
 }
 
 
@@ -686,7 +686,7 @@ footer {
 }
 
 .box-footer:hover p {
-    color: #ed6436;
+    color: #5cdb95;
 }
 
 .logo-footer {
@@ -782,7 +782,7 @@ footer {
 
     .text-header-service {
         font-size: 20px;
-        color: #65c178;
+        color: #41b3a3;
         font-weight: bold;
         letter-spacing: 4px;
     }
@@ -795,7 +795,7 @@ footer {
     }
 
     .text-header-service-2 span {
-        color: #ed6436;
+        color: #5cdb95;
     }
 
     /* about us */
